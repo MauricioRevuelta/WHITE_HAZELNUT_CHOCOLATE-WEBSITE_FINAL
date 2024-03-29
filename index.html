@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Mauricio Revuelta" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- This is the title of the document, which appears in the browser's title bar -->
+  <title>Ferrero Rocher White Hazelnut chocolate bar </title>
+
+  <!-- This links to an external stylesheet for the document's styling  -->
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/ferrero_logo_ca.png" />
+</head>
+
+<body>
+  <!-- This is the header section of the document, which contains a title and navigation-->
+  <header>
+    <h1>WHITE HAZELNUT</h1>
+    <!-- This is the navigation menu for the page -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- This is the main content of the page -->
+  <main>
+    <!-- Hero section -->
+    <section class="hero">
+      <section class="hero-content">
+        <h2>Get deep down into the Finest Swiss White Chocolate and Hazelnut</h2>
+        <p>
+          Feel the combination of textures from our two white chocolate layers filled with a Silky white chocolate cream
+          with crumbly mini-pieces of roasted Hazelnut.
+        </p>
+
+        <a href="#Pricing" class="buttonBox">Shop Now</a>
+
+
+      </section>
+      <section class="hero-image">
+        <img src="./images/i1.png" alt="White Hazelnut Chocolate Bar" width="383" height="652" />
+      </section>
+    </section>
+    <!-- About section -->
+    <section id="About" class="about">
+      <h2>About</h2>
+      <section class="about-content">
+        <div class="about-ingredients">
+          <h3>Ingredients: </h3>
+          <p class="about-text">
+            Sugar, Skim milk powder, Cocoa butter, Hazelnuts, Modified palm oil, Milk powder, Whey powder, Anhydrous
+            milk
+            fat, Soy and/or sunflower lecithin, Flavours. <br>
+
+            Contains: Milk, Hazelnuts, Soy.<br>
+
+            May contain: Almonds, Walnuts, Cashews, Brazil nuts, Pecans, Pistachios, Macadamia nuts. <br>
+
+          </p>
+        </div>
+
+        <img class="about-image" src="images/i5.png" alt="picture of Ingredients" width="684" height="380" />
+      </section>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+
+      <h2>Contact Us</h2>
+
+        <form action="backend" autocomplete="off">
+          <fieldset>
+            <p>
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required/>
+            </p>
+            <p>
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="Enter you email" required />
+            </p>
+            <p>
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="20" rows="10"
+                placeholder="Leave us your message here" required></textarea>
+            </p>
+          </fieldset>
+
+          <input type="submit" class="buttonBox" />
+
+        </form>
+
+    </section>
+  </main>
+
+  <!-- Footer of the page -->
+  <footer>
+    <img class="footer-log" src="images/ferrero_logo_ca.png" alt="logo" width="500" height="500" />
+    <section class="nav-form">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <form action="nothing.php" id="Pricing">
+        <label for="email">Get Pricing</label>
+        <input type="email" placeholder="@gmail.com" required/>
+
+        <input type="submit" class="buttonBox" />
+
+      </form>
+    </section>
+    <p>&copy; Ferrero Rocher 2024</p>
+  </footer>
+</body>
+
+</html>
